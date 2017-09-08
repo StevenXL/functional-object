@@ -7,8 +7,8 @@ main = print useSet
 
 useSet :: Int
 useSet =
-    let s0 = emptySet
-        s1 = insert s0 1
-        s2 = insert s1 1
-        s3 = insert s2 2
-    in 17 + size s3 ()
+    let set0 = emptySet
+        set1 = insert set0 1
+        set2 = insert set1 1
+        set3 = insert set2 2
+    in 17 + size set3 ()
