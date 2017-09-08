@@ -113,3 +113,11 @@ viewpoint of that function** have access to global state.
 `Recursion` allows us to simulate updating that global state by passing a new
 value to a function which creates a new scope, with that new value as "updated"
 global state.
+
+## Misc.
+
+There is a lot that can be done better here, but we want to focus on the main
+ideas. For example, we should not have hidden the type constant `Set`, though we
+do want to hide the data constructor.
+
+Also, the `size` field of the `Set` record doesn't have to be a function.
